@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!-- Permissions for location package start-->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The location for your favorite place</string>
+	<!-- Permissions for location package end-->
+
 	<!-- Permissions for image_picker package start-->
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Pick your favorite place image</string>
