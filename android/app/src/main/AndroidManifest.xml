@@ -4,6 +4,12 @@
         android:label="favorite_places"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!-- Added permissions for google_maps_flutter start -->
+        <meta-data 
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCHdtXMuZUG4Nw4ihHgILAaTk9W_uSErpU"
+        />
+        <!-- Added permissions for google_maps_flutter start -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
